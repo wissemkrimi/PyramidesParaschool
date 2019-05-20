@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    h1 Jade - node template engine
+    form(method='post', enctype='multipart/form-data', action='/api/upload')
+      input(type='file', name='filename')
+      input(type='submit', value='upload')
